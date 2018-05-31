@@ -8,7 +8,7 @@ A short Google search revealed a little help but not the full options that the g
 
 I suggest to store the shortcodes in a **shortcodes** Folder within the **layouts** Folder, like you can see below.
 
-![Store shortcode Files in layouts/shortcodes](/shortcodes.png)
+![Store shortcode Files in layouts/shortcodes](./shortcodes.png)
 
 In addition to this you have to generate yourself a Google API Key. This is possibel at [Google Console](https://console.cloud.google.com/apis/). The generated Key then must be inserted in your sites configuration file. 
 
