@@ -1,0 +1,9 @@
+<div class="shortcode shortcode--google-maps">
+	<iframe
+		src='https://www.google.com/maps/embed/v1/place?key={{ with .Get "key" }}{{ . }}{{ else }}{{ .Site.Params.googleMapsAPIKey }}{{end}}&q={{ .Get "location" }}{{ with .Get "center" }}&center={{ . }}{{end}}{{ with .Get "zoom" }}&zoom={{ . }}{{end}}{{ with .Get "maptype" }}&maptype={{ . }}{{end}}{{ with .Get "language" }}&language={{ . }}{{end}}{{ with .Get "region" }}&region={{ . }}{{end}}'
+		frameborder="0"
+		scrolling='{{ with .Get "scrolling" }}{{.}}{{else}}no{{end}}'
+		width='{{ with .Get "width" }}{{.}}{{else}}100%{{end}}'
+		height='{{ with .Get "height" }}{{.}}{{else}}300px{{end}}'>
+	</iframe>
+</div>
