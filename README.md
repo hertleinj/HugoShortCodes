@@ -2,7 +2,7 @@
 
 On creating my personal Blog with Hugo i found the need to embed maps within my posts.
 
-A short Google search revealed a little help but not the full options that the google API provides. Because of this i began creating my own Shortcodes for this. They are avaliable to download from my [Github repository](https://github.com/hertleinj).
+A short Google search revealed a little help but not the full options that the google API provides. Because of this i began creating my own Shortcodes for this.
 
 ## Installation
 
@@ -10,11 +10,11 @@ I suggest to store the shortcodes in a **shortcodes** Folder within the **layout
 
 ![Store shortcode Files in layouts/shortcodes](./shortcodes.png)
 
-In addition to this you have to generate yourself a Google API Key. This is possibel at [Google Console](https://console.cloud.google.com/apis/). The generated Key then must be inserted in your sites configuration file. 
+In addition to this you have to generate yourself a Google API Key. This is possibel at [Google Console](https://console.cloud.google.com/apis/). The generated Key then must be inserted in your sites configuration file.
 
 ```toml
 [params]
-   	googleMapsAPIKey = "AIzaSyAxGwt5EQ_BWaDvh4npFYwGwV9uzKHdhz8"
+   	googleMapsAPIKey = "XXX"
 ```
 
 After that they are ready for use in your Markdown Posts. 
@@ -39,4 +39,4 @@ Futhermore you can set the following three parameters for the iframe HTML elemen
 
 ## Notice
 
-Please feel free to add Issues or create Pull Requests in the [repository](https://github.com/hertleinj). I am new to Hugo and Frontend-Dev is not daily job.
+Please feel free to add Issues or create Pull Requests in the repository. I am new to Hugo and Frontend-Dev is not daily job.
