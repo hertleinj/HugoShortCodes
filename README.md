@@ -21,12 +21,12 @@ After that they are ready for use in your Markdown Posts.
 
 ## Use
 
-Just add one of the follwoing lines (without the Gap between the first to curly-bracets):
+Just add one of the follwoing lines:
 
 ```
-{ {< google-maps-location height="300" location="Nuernberg Germany" >}}
+{{< google-maps-location height="300" location="Nuernberg Germany" >}}
 
-{ {< google-maps-direction origin="Nuernberg Bavaria" destination="Frankfurt, Hessen">}}
+{{< google-maps-direction origin="Nuernberg Bavaria" destination="Frankfurt, Hessen">}}
 ```
 
 To see the full range of Options for embeded Maps, you can visits [Google's Guide](https://developers.google.com/maps/documentation/embed/guide). All four types are avaliable as shortcodes. The **four** examples above only contain the required Arguments. For all optionals Arguments please refer to the previously mentioned Google Site.
