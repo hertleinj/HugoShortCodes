@@ -1,5 +1,9 @@
 # Hugo Google Maps Shortcodes
 
+## Most likely outdated due to new Google API's 
+I currently have no need but feel free to test und submit changes if necessary.
+---
+
 On creating my personal Blog with Hugo i found the need to embed maps within my posts.
 
 A short Google search revealed a little help but not the full options that the google API provides. Because of this i began creating my own Shortcodes for this.
